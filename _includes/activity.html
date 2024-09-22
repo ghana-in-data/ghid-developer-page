@@ -10,7 +10,7 @@ octicon
 activity.created
 {% endcomment %}
 
-    <article class="activity" style="display:none" id="activity{% raw %}{{ id }}{% endraw %}">
+    <article class="activity" style="display:flex" id="activity{% raw %}{{ id }}{% endraw %}">
         <a class="activity__avatar" href="https://github.com/{% raw %}{{ activity.actorLogin }}{% endraw %}" target="_new">
             <img src="{% raw %}{{ activity.actorAvatar }}{% endraw %}" alt="Avatar image of GitHub login {% raw %}{{ activity.actorAvatar }}{% endraw %}" />
                 {% raw %}{{ activity.actorLogin }}{% endraw %}
