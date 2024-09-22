@@ -1,9 +1,11 @@
-title: Microsoft Open Source
+title: Ghana in Data
 email:
-description: Microsoft Open Source
+description: >-
+  Ghana in Data is a community of data enthusiasts who are passionate about using data to drive social change in Ghana. We are a community of data scientists, data engineers, data analysts, statisticians, and data enthusiasts who are passionate about using data to drive social change in Ghana. 
+  Ghana in Data Open Source
 
-twitter_username: openatmicrosoft
-github_username: microsoft
+twitter_username: ghindata
+github_username: gh-in-data
 
 cdn: https://opensource.azureedge.net
 
@@ -54,7 +56,7 @@ exclude:
 seo:
 
 twitter:
-  username: openatmicrosoft
+  username: ghindata
 
 defaults:
   -
