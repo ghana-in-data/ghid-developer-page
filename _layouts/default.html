@@ -22,11 +22,9 @@
             document.write('<style type="text/css">*[data-animate-in="up"], *[data-animate-in="up"], *[data-animate-in="fade"], *[data-animate-in="left"], *[data-animate-in="right"] { opacity: 0; } .tabs__content { display: none; } *[data-javascript-show="immediate"] { opacity: 1.0 }</style>');
         </script>
         {% if jekyll.environment == "opensource.microsoft.com" %}{% include production-telemetry-head.html %}{% endif %}
-        <script src="{{ '/assets/js/jquery-3.3.1.min.js' | relative_url }}"></script>
-        <!-- <script src="{{ site.cdn }}/assets/js/jquery.timeago.js"></script> -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.6.7/jquery.timeago.min.js"></script>
-        <script src="{{ '/assets/js/handlebars.js' | relative_url }}"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+        <script src="{{ site.cdn }}/assets/js/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="{{ site.cdn }}/assets/js/jquery.timeago.js"></script>
+        <script src="{{ site.cdn }}/assets/js/handlebars.js"></script>
         <meta name="google-site-verification" content="PXNcqyP34d82CBV3rvH8RwDRH5iWWb_zL-UFwp-3Ubs" />
         <meta name="google-site-verification" content="jj6XRLurdxcqc_T28_tszxZ4M2K8TFQDPjvVRb8MLsg" />
     </head>
@@ -43,11 +41,9 @@
 
         {% include footer.html %}
 
-        <script src="{{ '/assets/js/jquery-3.3.1.min.js' | relative_url }}"></script>
-        <script src="{{'/assets/js/DrawSVGPlugin.min.js' | relative_url}}"></script>
+        <script src="https://opensource.azureedge.net/assets/js/gsap.min.js"></script>
+        <script src="https://opensource.azureedge.net/assets/js/DrawSVGPlugin.min.js"></script>
         <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
-        <script src="{{ '/assets/js/collaborate.js' | relative_url }}"></script>
-
         {% if jekyll.environment == "opensource.microsoft.com" %}{% include production-telemetry-script.html %}{% endif %}
     </body>
 </html>

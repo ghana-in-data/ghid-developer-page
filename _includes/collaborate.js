@@ -16,7 +16,7 @@
 
     var futureContinuation = null;
     var backwardContinuation = null;
-    
+
     var rendering = null;
     var alive = false;
     var queuedActivity = [];
@@ -188,15 +188,11 @@
         if (!isAutomatic) {
             qs = ''; // refresh should grab the latest
         }
-        var url = `https://api.github.com/repos/Simontagbor/opensource.microsoft.com/events${qs}`;
+        var url = '/api/stream' + qs;
         $.ajax({
             type: 'GET',
             url: url,
             dataType: 'json',
-            headers: {
-                'Accept': 'application/vnd.github.v3+json',
-                'Authorization': 'token ***REMOVED***',
-            },
             error: function () {
                 updateRefreshFeed(true);
             },
@@ -261,15 +257,10 @@
     }
 
     function loadIssuesOneTime() {
-        var url = `https://api.github.com/repos/Simontagbor/opensource.microsoft.com/issues?state=open&labels=good%20first%20issue`;
         $.ajax({
             type: 'GET',
-            url: url,
+            url: '/api/issues',
             dataType: 'json',
-            headers: {
-                'Accept': 'application/vnd.github.v3+json',
-                'Authorization': 'token ***REMOVED***' 
-            },
             success: function(issues){
                 if (issues && issues.issues) {
                     renderGoodFirstIssues(issues.issues);
