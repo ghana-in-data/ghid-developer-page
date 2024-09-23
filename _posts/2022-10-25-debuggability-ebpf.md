@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Towards debuggability and secure deployments of eBPF programs on Windows
-publishDate: October 25, 2022
+title: The Politics of Small Scale Mining; How Current Lincensing Patterns is Fueling Environmental Crisis in Ghana.
+publishDate: September 25, 2024
 featured: true
-author: Alan Jowett
-authorTitle: Principal Software Engineer
+author: Philip Aklorbortu
+authorTitle: Principal Analyst
 authorAvatar: alanjowett.png
 articleUrl: https://cloudblogs.microsoft.com/opensource/2022/10/25/towards-debuggability-and-secure-deployments-of-ebpf-programs-on-windows/
 excerpt: 
 ---
-The eBPF for Windows runtime has introduced a new mode of operation, native code generation, which exists alongside the currently supported modes of operation for eBPF programs: JIT (just-in-time compilation) and an interpreter, with the administrator able to select the mode when a program is loaded. 
+This blog examines the lincensing patterns disovered using exploratory data analysis of decades worth of mining licensing records and licensing process. The blog also examines the political dynamics surounding licencing of mining activities. The goal is to shed light on the need for a tighter requirement for licencing of mining activities.
