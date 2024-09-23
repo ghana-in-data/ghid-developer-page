@@ -15,13 +15,13 @@
 
 
 - resources:
-  - title: Microsoft's Open Source Code of Conduct
+  - title: GiD Open Source Code of Conduct
     url: /codeofconduct
-  - title: Microsoft Contributor License Agreement
+  - title: GiD Contributor License Agreement
     url: https://cla.opensource.microsoft.com
   - title: Third-Party Disclosures
     url: https://3rdpartysource.microsoft.com/
-  - title: Microsoft's Open Source Program
+  - title: GiD's Open Source Program
     url: /program/
   - title: Azure Credits
     url: /azure-credits
