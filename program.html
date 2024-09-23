@@ -19,22 +19,21 @@ permalink: /program/
         <div class="wrapper my-6 py-4">
             <div class="col-md-10 col-lg-7 mx-auto">
                 <h3 class="h4 font-weight-400 mb-4">
-                    Microsoft has a strong open source program that encourages contribution, respects
-                    license obligations, and allows engineers to use open source with ease, work in the open,
-                    release projects, and be secure.
+                    Ghana in Data adopts a strong open source program that encourages contribution, respects
+                    license obligations, and allows developers to use open source with ease, work safely in the open,
+                    and build meaningful relationships with the open source community.
                 </h3>
                 <p>
-                    Our developers use more than 200,000 open source components every month while building 
-                    products and services.
+                    Being a new initiative, We stand on the shoulders of many open source components deveveloped by the open source community.
                 </p>
-                <p>
+                <!-- <p>
                     Relentless automation, engineering system innovation, and making it easy for our
                     developers to "fall into the pit of success" have been key to using open source
                     at enterprise-scale.
-                </p>
+                </p> -->
                 <p>
-                    Here are just a few of the ways that we've built a strong open source program. 
-                    We're sharing our process in hopes it helps others be more successful in open source too.
+                    Here are just a few of the ways that we're building a strong open source program. 
+                    We're sharing the process we're adopting in hopes it helps you want to contribute or support our program.
                 </p>
             </div>
         </div>
@@ -46,8 +45,8 @@ permalink: /program/
                 <div class="tabs__tabs" role="tablist">
                     <a class="tabs__tab is-active" role="tab" href="#program-overview" data-tab="program-overview">Overview</a>
                     <a class="tabs__tab" role="tab" href="#program-tools" data-tab="program-tools">Tools &amp; resources</a>
-                    <a class="tabs__tab" role="tab" href="#program-using" data-tab="program-using">Using open source</a>
                     <a class="tabs__tab" role="tab" href="#program-contributing" data-tab="program-contributing">Contributing</a>
+                    <a class="tabs__tab" role="tab" href="#program-using" data-tab="program-using">Using open source</a>
                     <a class="tabs__tab" role="tab" href="#program-releasing" data-tab="program-releasing">Releasing projects</a>
                 </div>
             </div>
@@ -65,15 +64,17 @@ permalink: /program/
                     {% include program-tools.html %}
                 </div>
 
+                <div class="tabs__content" data-tab="program-contributing">
+                    <noscript><h2>Contributing</h2></noscript>
+                    {% include program-contributing.html %}
+                </div>
+
                 <div class="tabs__content" data-tab="program-using">
                     <noscript><h2>Using open source</h2></noscript>
                     {% include program-using.html %}
                 </div>
 
-                <div class="tabs__content" data-tab="program-contributing">
-                    <noscript><h2>Contributing</h2></noscript>
-                    {% include program-contributing.html %}
-                </div>
+               
 
                 <div class="tabs__content" data-tab="program-releasing">
                     <noscript><h2>Releasing projects</h2></noscript>
