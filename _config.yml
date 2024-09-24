@@ -46,6 +46,7 @@ exclude:
   - Dockerfile
   - Dockerfile.builder
   - script
+  - vendor
   - vendor/gems
   - node_modules
   - node_modules/**/CHANGELOG.md
