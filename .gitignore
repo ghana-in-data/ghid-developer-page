@@ -8,7 +8,9 @@ _site
 node_modules
 bin/
 vendor/
-
+git-backup/
+.git-rewrite/
+git-filter-repo/
 
 # Logs
 logs
@@ -118,3 +120,4 @@ dist
 localbuilder.sh
 
 assets/js/
+.git-backup/
