@@ -1,6 +1,9 @@
 FROM jekyll/builder:4.2.0 as build
 
-RUN apk update && apk add --no-cache zip
+# Install zip, ruby 3.3.5, and upgrade Bundler
+RUN apk update && apk add --no-cache zip ruby=3.3.5-r0 ruby-dev build-base \
+    && gem install bundler:2.5.16
+
 
 WORKDIR /usr/local/site
 COPY Gemfile /usr/local/site
