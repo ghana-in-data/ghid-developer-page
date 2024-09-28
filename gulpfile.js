@@ -22,6 +22,11 @@ const concat 			= require('gulp-concat');
 const uglify			= require('gulp-uglify');
 const imagemin			= require('gulp-imagemin');
 const pngquant			= require('imagemin-pngquant');
+const { exec }          = require('child_process');
+
+
+// Full path to the bundle executable
+const bundlePath = path.join('C:', 'Ruby30-x64', 'bin', 'bundle');
 
 // local scripts
 const buildThanksData   = require('./script/thanks');
@@ -140,6 +145,13 @@ function images() {
 function jekyll() {
 	console.log('recompile jekyll');
 	return cp.spawn("bundle", ["exec", "jekyll", "build"], { stdio: "inherit" });
+}
+function jekyll(cb) {
+  exec(`${bundlePath} exec jekyll build`, function (err, stdout, stderr) {
+    console.log(stdout);
+    console.log(stderr);
+    cb(err);
+  });
 }
 
 

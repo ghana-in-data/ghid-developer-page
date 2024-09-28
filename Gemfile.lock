@@ -32,7 +32,7 @@ GEM
       http_parser.rb (~> 0)
     ethon (0.16.0)
       ffi (>= 1.15.0)
-    eventmachine (1.2.7)
+    eventmachine (1.2.7-x64-mingw32)
     execjs (2.9.1)
     faraday (2.12.0)
       faraday-net_http (>= 2.0, < 3.4)
@@ -40,7 +40,7 @@ GEM
       logger
     faraday-net_http (3.3.0)
       net-http
-    ffi (1.17.0)
+    ffi (1.17.0-x64-mingw32)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (228)
@@ -222,7 +222,6 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.6.1)
     mercenary (0.3.6)
-    mini_portile2 (2.8.7)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
@@ -231,8 +230,7 @@ GEM
     mutex_m (0.2.0)
     net-http (0.4.1)
       uri
-    nokogiri (1.16.7)
-      mini_portile2 (~> 2.8.2)
+    nokogiri (1.16.7-x64-mingw32)
       racc (~> 1.4)
     octicons (10.1.0)
       nokogiri (>= 1.6.3.1)
@@ -270,11 +268,10 @@ GEM
       tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
     uri (0.13.1)
-    webrick (1.8.1)
+    webrick (1.8.2)
 
 PLATFORMS
-  x64-mingw-ucrt
-  x86_64-linux
+  x64-mingw32
 
 DEPENDENCIES
   base64
@@ -291,4 +288,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.5.16
+   2.5.20

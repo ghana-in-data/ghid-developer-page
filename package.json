@@ -10,7 +10,7 @@
     "build": "node_modules/gulp/bin/gulp.js build"
   },
   "devDependencies": {
-    "browser-sync": "^3.0.2",
+    "browser-sync": "^3.0.3",
     "child_process": "^1.0.2",
     "color-contrast-checker": "1.5.0",
     "del": "^5.1.0",
@@ -28,6 +28,7 @@
     "imagemin-pngquant": "^8.0.0",
     "npm-clean": "^1.0.3",
     "sass": "^1.79.1",
+    "webpack-dev-middleware": "^7.4.2",
     "yaml": "2.2.2"
   },
   "dependencies": {
